@@ -24,3 +24,7 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
 - [Next.js](https://nextjs.org/learn)
+
+## VsCode套件安裝
+1. File -> Prefenerences -> Configure User Snippets -> typescriptreact.json 對檔案進行編輯
+2. Tailwind CSS IntelliSense
