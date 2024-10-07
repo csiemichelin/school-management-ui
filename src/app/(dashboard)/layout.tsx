@@ -26,7 +26,7 @@ export default function DashboardLayout({
           {/* gap-2: 子元素之間的間距為 0.5rem (8px) */}
           {/* p-4: 設定內邊距為 1rem (16px)，四邊皆有相同的間距 */}
           <Image src="/logo.png" alt="logo" width={48} height={48} />
-          <span className="hidden lg:block lg:text-lg font-bold">SchooLama</span>
+          <span className="hidden lg:block lg:text-lg font-bold">SchooMichelin</span>
           {/* hidden: 在小屏幕上隱藏此元素 */}
           {/* lg:block: 在大螢幕 (lg) 上顯示這個元素 */}
           {/* text-sm: 在小螢幕上字體大小為 14px */}
