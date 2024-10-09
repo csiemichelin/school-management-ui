@@ -153,7 +153,7 @@ const Menu = () => {
               <Image src={item.icon} alt="" width={20} height={20} />
               {/* Image: 顯示項目的圖標 */}
               
-              <span className="hidden lg:block">{item.label}</span>
+              <span className="hidden lg:block text-xs lg+10:text-lg">{item.label}</span>
               {/* hidden: 在小螢幕上隱藏此元素 */}
               {/* lg:block: 在大螢幕 (lg) 上顯示此元素 */}
             </Link>

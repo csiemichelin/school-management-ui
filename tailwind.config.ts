@@ -20,7 +20,10 @@ const config: Config = {
         michelinPurpleLight: "#F1F0FF", 
         michelinYellow: "#FAE27C",
         michelinYellowLight: "#FEFCE8", 
-      }
+      },
+      screens: {
+        'lg+10': '1588px', // 自訂 1034px 的斷點
+      },
     },
   },
   plugins: [],
