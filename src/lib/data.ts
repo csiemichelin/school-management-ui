@@ -3,7 +3,7 @@
 // export let role = "admin";
 // export let role = "student";
 // export let role = "parent";
-export let role = "teacher";
+export let role = "admin";
 
 export const teachersData = [
   {
