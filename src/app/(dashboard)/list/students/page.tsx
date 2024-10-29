@@ -14,7 +14,7 @@ type Student = {
   phone: string;
   grade: number;
   class: string;
-  address: string[];
+  address: string;
 };
 
 const columns = [
