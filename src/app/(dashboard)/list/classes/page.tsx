@@ -53,7 +53,7 @@ const ClassListPage = () => {
         <div className="flex items-center gap-2">
           <Link href={`/list/classs/${item.id}`}>
             <button className="w-7 h-7 flex items-center justify-center rounded-full bg-michelinSky">
-              <Image src="/view.png" alt="" width={16} height={16} />
+              <Image src="/edit.png" alt="" width={16} height={16} />
             </button>
           </Link>
           {role == "admin" && (
