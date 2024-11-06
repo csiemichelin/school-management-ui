@@ -920,43 +920,43 @@ export const announcementsData = [
 
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
-// JavaScript 中的月份是從 0 開始計算的。new Date(2024, 9, 14) 其實代表的是 2024 年 11 月 14 日，而不是 10 月 14 日。
+// JavaScript 中的月份是從 0 開始計算的。new Date(2024, 9, 14) 其實代表的是 2024 年 10 月 14 日，而不是 9 月 14 日。
 export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 9, 21, 8, 0),
-    end: new Date(2024, 9, 21, 8, 45),
+    start: new Date(2024, 10, 5, 8, 0),
+    end: new Date(2024, 10, 5, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 9, 21, 9, 0),
-    end: new Date(2024, 9, 21, 9, 45),
+    start: new Date(2024, 10, 5, 9, 0),
+    end: new Date(2024, 10, 5, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 9, 21, 10, 0),
-    end: new Date(2024, 9, 21, 10, 45),
+    start: new Date(2024, 10, 5, 10, 0),
+    end: new Date(2024, 10, 5, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 9, 21, 11, 0),
-    end: new Date(2024, 9, 21, 11, 45),
+    start: new Date(2024, 10, 5, 11, 0),
+    end: new Date(2024, 10, 5, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 9, 21, 13, 0),
-    end: new Date(2024, 9, 21, 13, 45),
+    start: new Date(2024, 10, 5, 13, 0),
+    end: new Date(2024, 10, 5, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 9, 21, 14, 0),
-    end: new Date(2024, 9, 21, 14, 45),
+    start: new Date(2024, 10, 5, 14, 0),
+    end: new Date(2024, 10, 5, 14, 45),
   },
   {
     title: "English",
