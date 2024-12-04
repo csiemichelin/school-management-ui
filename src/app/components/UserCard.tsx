@@ -1,3 +1,4 @@
+// 用戶卡片
 import Image from "next/image"
 
 const UserCard = ({type}:{type:string}) => {

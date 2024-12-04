@@ -1,3 +1,4 @@
+import FormModal from "@/app/components/FormModal";
 import Pagination from "@/app/components/Pagination";
 import Table from "@/app/components/Table";
 import TableSearch from "@/app/components/TableSearch";
@@ -51,15 +52,17 @@ const ClassListPage = () => {
       <td className="hidden md:table-cell">{item.supervisor}</td>
       <td>
         <div className="flex items-center gap-2">
-          <Link href={`/list/classs/${item.id}`}>
-            <button className="w-7 h-7 flex items-center justify-center rounded-full bg-michelinSky">
-              <Image src="/edit.png" alt="" width={16} height={16} />
-            </button>
-          </Link>
           {role == "admin" && (
-            <button className="w-7 h-7 flex items-center justify-center rounded-full bg-michelinPurple">
-              <Image src="/delete.png" alt="" width={16} height={16} />
-            </button>
+            <>
+              {/* <button className="w-7 h-7 flex items-center justify-center rounded-full bg-michelinSky">
+                <Image src="/update.png" alt="" width={16} height={16} />
+              </button> */}
+              <FormModal table="class" type="update" data={item}/>
+              {/* <button className="w-7 h-7 flex items-center justify-center rounded-full bg-michelinPurple">
+                <Image src="/delete.png" alt="" width={16} height={16} />
+              </button> */}
+              <FormModal table="class" type="delete" id={item.id}/>
+            </>
           )}
         </div>
       </td>
@@ -70,7 +73,7 @@ const ClassListPage = () => {
     <div className="bg-white p-4 rounded-md flex-1 m-4 mt-0">
       {/* TOP */}
       <div className="flex flex-row items-center justify-between">
-        <h1 className="hidden md:block text-lg font-semibold">All Classs</h1>
+        <h1 className="hidden md:block text-lg font-semibold">All Classes</h1>
         <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
           <TableSearch />
           <div className="flex flex-row items-center gap-4 self-end">
@@ -81,9 +84,10 @@ const ClassListPage = () => {
               <Image src="/sort.png" alt="" width={14} height={14} />
             </button>
             {role == "admin" && (
-              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-michelinYellow">
-                <Image src="/plus.png" alt="" width={14} height={14} />
-              </button>
+              // <button className="w-8 h-8 flex items-center justify-center rounded-full bg-michelinYellow">
+              //   <Image src="/create.png" alt="" width={14} height={14} />
+              // </button>
+              <FormModal table="class" type="create"/>
             )}
           </div>
         </div>

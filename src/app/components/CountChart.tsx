@@ -1,3 +1,4 @@
+// 計數圖
 'use client'; // 不能省略，'use client'; 指令是用來明確指定某個文件應該作為 客戶端組件 渲染的。這是因為 Next.js 13+ 引入了伺服器端組件（Server Components）和客戶端組件（Client Components）概念，允許更細緻地控制渲染流程。
 import Image from 'next/image';
 import { RadialBarChart, RadialBar, Legend, ResponsiveContainer } from 'recharts';

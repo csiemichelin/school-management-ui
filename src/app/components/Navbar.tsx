@@ -1,3 +1,4 @@
+// 導覽列
 import Image from "next/image"
 
 const Navbar = () => {
